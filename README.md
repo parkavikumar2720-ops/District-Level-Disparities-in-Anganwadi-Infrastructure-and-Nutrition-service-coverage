@@ -60,10 +60,10 @@ This project uses Python-based analysis and visualization to identify these patt
 
 | Attribute |	Details |
 | Dataset |	District-Level Anganwadi Infrastructure & Nutrition Service Coverage Data |
-| Period |	(add your dataset's year range) |
-| Records |(add row count) |
-| Original Variables | (add column count) |
-| Geography	| State and District |
+| Period |	(2023-2024) |
+| Records |(12458) |
+| Original Variables 24| (64 column count) |
+| Geography	| State:36 unique values and District:777 unique values |
 | Domain | Public Health / Nutrition / Child Development (ICDS) |
 | Platform | Google Collab |
 | Language | Python |
@@ -196,7 +196,7 @@ df["Service_Utilization_Gap"] = (
 
 ---
 
-# 📊 Statistical Analysis
+ 📊 Statistical Analysis
 
 The project uses:
 
@@ -359,7 +359,7 @@ pip install pandas numpy matplotlib seaborn
 ```
 ### Run the Notebook
 
-Open:
+Open:poshan_final_project (2).ipynb
 
 ```text
 Anganwadi_Analysis.ipynb
@@ -404,9 +404,9 @@ Add your Collab notebook link here
 |---|---|
 | Project	| District-Level Disparities in Anganwadi Infrastructure and Nutrition Service Coverage |
 | Domain | Public Health / Nutrition / Child Development (ICDS) |
-| Period | (add period) |
-| Records	| (add record count) |
-| Original Variables | (add variable count) |
+| Period | (2023-2024) |
+| Records	| (12,458) |
+| Original Variables (24) |
 | Language | Python |
 | Analysis | Statistical Analysis + EDA |
 | Visualization	| Matplotlib + Seaborn |
