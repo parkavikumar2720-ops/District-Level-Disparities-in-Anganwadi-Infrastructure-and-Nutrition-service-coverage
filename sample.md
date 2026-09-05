@@ -2,8 +2,6 @@
 
 ## An Analysis of the Poshan Tracker (ICDS) Dataset
 
-![KPI Dashboard](visualizations/kpi_dashboard.png)
-
 ## 📌 Project Overview
 
 This project analyzes district-level records from the **Poshan Tracker application**, which monitors Anganwadi Centres (AWCs) delivering nutrition and early childhood services under the ICDS scheme.
