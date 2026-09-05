@@ -117,7 +117,6 @@ Eligible beneficiaries and Anganwadi centre counts show the highest variance of 
 
 ---
 
-<img width="1360" height="781" alt="beneficiary_distribution" src="https://github.com/user-attachments/assets/e103f4db-c99d-46e4-bd11-cb0e1e04b50f" />
 # 📊 Data Visualizations
 
 ## 1. Eligible Beneficiaries Distribution
