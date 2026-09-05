@@ -210,7 +210,8 @@ The project uses:
   
 These measures are used to understand the central tendency, variability, distribution, and extreme observations across infrastructure and coverage variables (e.g. Infra Completeness Score, Nutrition Coverage Ratio, Total Enrolled Beneficiaries, SNP Beneficiaries).
 
-/* Once you run your notebook, this section should be filled in with your actual mean/median/mode, variance, standard deviation, skewness, and kurtosis tables — the same way the PMFBY sample reports these per variable. */
+<img width="1187" height="530" alt="image" src="https://github.com/user-attachments/assets/ef046979-3c26-4dcf-afc0-beba024c6b65" />
+
 
 ---
 
