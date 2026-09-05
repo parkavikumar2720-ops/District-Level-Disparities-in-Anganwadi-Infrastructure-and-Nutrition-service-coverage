@@ -1,6 +1,6 @@
 # 📊 District-Level Disparities in Anganwadi Infrastructure & Nutrition Service Coverage
 
-## An Analysis of the Poshan Tracker (ICDS) Dataset
+> An Analysis of the Poshan Tracker (ICDS) Dataset
 
 ## 📌 Project Overview
 
@@ -95,6 +95,14 @@ A composite score from **0 to 3** based on the availability of:
 | Stunted Children (%) | 11.4 | 8.1 | 6.0 |
 | Wasting (SAM/MAM) (%) | 5.6 | 3.8 | 2.5 |
 
+> Interpretation: Mean sits well above median for eligible beneficiaries and all three malnutrition indicators, an early signal of right-skew confirmed by the skewness values below.
+
+---
+
+## Variance & Standard Deviation 
+
+Eligible beneficiaries and Anganwadi centre counts show the highest variance of all key indicators (std. dev. in the thousands for beneficiaries versus single digits for malnutrition percentages), confirming that district size - population served and number of centres - varies enormously across the country rather than being evenly distributed.
+
 ## Skewness & Kurtosis
 
 | Variable | Skewness | Kurtosis |
@@ -105,10 +113,11 @@ A composite score from **0 to 3** based on the availability of:
 | Stunted Children (%) | 1.88 | 5.60 |
 | Wasting (SAM/MAM) (%) | 2.42 | 8.10 |
 
-The positive skewness and heavy tails indicate that most districts have low-to-moderate values, while a smaller group of districts carries substantially higher beneficiary or malnutrition loads.
+> All positively skewed with heavy tails (kurtosis > 3), meaning most districts report low-to-moderate values while a smaller group of districts pulls the mean upward. These high-value districts are treated as genuine high-burden districts rather than data errors, so outliers are retained rather than removed.
 
 ---
 
+<img width="1360" height="781" alt="beneficiary_distribution" src="https://github.com/user-attachments/assets/e103f4db-c99d-46e4-bd11-cb0e1e04b50f" />
 # 📊 Data Visualizations
 
 ## 1. Eligible Beneficiaries Distribution
@@ -123,7 +132,7 @@ The distribution shows a strong right-skew, with a smaller group of districts re
 
 The box plot highlights the variation in AWC counts and identifies districts with unusually high numbers of centres.
 
-![Anganwadi Centres Distribution](visualizations/awc_distribution.png)
+![Anganwadi Centres Distribution](
 
 ---
 
