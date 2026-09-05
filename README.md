@@ -131,7 +131,7 @@ The distribution shows a strong right-skew, with a smaller group of districts re
 
 The box plot highlights the variation in AWC counts and identifies districts with unusually high numbers of centres.
 
-![Anganwadi Centres Distribution](
+![Anganwadi Centres Distribution](Images/awc_distribution.png)
 
 ---
 
@@ -139,7 +139,7 @@ The box plot highlights the variation in AWC counts and identifies districts wit
 
 The distribution of underweight children (%) shows a visible right tail representing districts with comparatively higher nutritional burden.
 
-![Underweight Children Distribution](visualizations/underweight_distribution.png)
+![Underweight Children Distribution](Images/underweight_distribution.png)
 
 ---
 
@@ -147,7 +147,7 @@ The distribution of underweight children (%) shows a visible right tail represen
 
 This scatter plot examines whether workforce strength scales proportionally with beneficiary load.
 
-![Workers vs Beneficiaries](visualizations/workers_vs_beneficiaries.png)
+![Workers vs Beneficiaries](Images/workers_vs_beneficiaries.png)
 
 **Key insight:** Worker counts generally increase with beneficiary counts, but some districts show relatively few workers for a large beneficiary population.
 
@@ -157,7 +157,7 @@ This scatter plot examines whether workforce strength scales proportionally with
 
 Comparison of Aadhaar verification coverage among the top-performing states.
 
-![Aadhaar Coverage](visualizations/aadhaar_coverage.png)
+![Aadhaar Coverage](Images/aadhaar_coverage.png)
 
 **Key insight:** Several states report Aadhaar verification coverage close to 98–99%, demonstrating that high coverage is achievable at scale.
 
@@ -167,7 +167,7 @@ Comparison of Aadhaar verification coverage among the top-performing states.
 
 The heatmap examines relationships among infrastructure, workforce, beneficiary coverage, and malnutrition indicators.
 
-![Correlation Heatmap](visualizations/correlation_heatmap.png)
+![Correlation Heatmap](Images/correlation_heatmap.png)
 
 **Key insight:** Underweight, stunting, and wasting are strongly correlated with one another, while infrastructure and workforce variables show much weaker relationships with malnutrition indicators.
 
@@ -177,7 +177,7 @@ The heatmap examines relationships among infrastructure, workforce, beneficiary 
 
 Comparison of underweight, stunting, and wasting indicators across states with large Anganwadi networks.
 
-![Malnutrition Comparison](visualizations/malnutrition_comparison.png)
+![Malnutrition Comparison](Images/malnutrition_comparison.png)
 
 **Key insight:** Large Anganwadi networks do not automatically result in lower malnutrition rates.
 
@@ -187,7 +187,7 @@ Comparison of underweight, stunting, and wasting indicators across states with l
 
 The score measures the availability of drinking water, functional toilets, and own buildings.
 
-![Infrastructure Availability Score](visualizations/infrastructure_score.png)
+![Infrastructure Availability Score](Images/infrastructure_score.png)
 
 **Key insight:** Approximately 52% of district records report the complete 3/3 infrastructure score, while a meaningful minority report significant infrastructure gaps.
 
