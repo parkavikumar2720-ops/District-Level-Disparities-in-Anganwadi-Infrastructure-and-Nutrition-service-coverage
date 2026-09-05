@@ -123,7 +123,7 @@ Eligible beneficiaries and Anganwadi centre counts show the highest variance of 
 
 The distribution shows a strong right-skew, with a smaller group of districts reporting very high beneficiary counts.
 
-![Eligible Beneficiaries Distribution](visualizations/beneficiary_distribution.png)
+![Eligible Beneficiaries Distribution](Images/beneficiary_distribution.png)
 
 ---
 
